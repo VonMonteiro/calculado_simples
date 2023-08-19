@@ -1,0 +1,40 @@
+body{
+    background: rgb(107, 66, 172);
+}
+.wrapper{
+    width: 400px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0px 0px 9px 2px #FF9500;
+
+}
+
+input[type="text"]{
+    height: 40px;
+    font-size: 24px;
+}
+button{
+    background: rgb(218, 154, 36);
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: poppins;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+input[type="radio"]{
+    width:20px ;
+    height:20px ;
+}
+b{
+    font-size: 30px;
+}
